@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install Nginx if not already installed
+# Install Nginx if not already install
 sudo apt-get update
 sudo apt-get -y install nginx
 
@@ -24,4 +24,3 @@ sudo sh -c 'echo -e "location /hbnb_static {\n\talias /data/web_static/current/;
 sudo service nginx restart
 
 exit 0
-
